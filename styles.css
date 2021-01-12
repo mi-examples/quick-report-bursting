@@ -219,3 +219,7 @@
 .bi-tool-text {
     color: rgba(55,128,159,1);
 }
+
+.bi-tool-sheet__text .wrap_like_input {
+    border: none;
+}
