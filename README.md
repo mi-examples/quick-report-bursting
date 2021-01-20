@@ -6,7 +6,7 @@ A Burst is a collection of content sent to users on a schedule. Quick Report Bur
 <img src="screenshots/quick1.png" width=70%; height = 70%/>
 
 1. Below the grid, click **[+ New Template]**
-2. **Internal Name**: “quick-report-bursting-app”
+2. **Internal Name**: “quick-report-bursting”
 3. **[Save]**
 
 ### 2. Upload Assets
