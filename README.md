@@ -53,7 +53,7 @@ There are several ways of uploading assets:
 #### 2.1.1. Access the Quick Report Bursting Repository 
 <img src="screenshots/quick2.png" width=70%; height = 70%/>
 
-At a new tab, access [https://github.com/mi-examples/quick-report-bursting](https://github.com/mi-examples/quick-report-bursting):
+In a new tab, access [https://github.com/mi-examples/quick-report-bursting](https://github.com/mi-examples/quick-report-bursting):
 1. **Code > Download ZIP**
 
 #### 2.1.2. Upload Assets from the Downloaded ZIP Archive
@@ -67,7 +67,7 @@ At a new tab, access [https://github.com/mi-examples/quick-report-bursting](http
 ### 3. Add Variables
 <img src="screenshots/quick6.png" width=70%; height = 70%/>
 
-At the _Info_ tab, add the next Variables, (paths are provided for convenience):
+On the _Info_ tab, add the next Variables, (paths are provided for convenience):
 
 * _Tableau Template_, _Microsoft Power BI Template_, _Qlik Sense Template_
   * These are External Report Templates, can be found under **Admin > Reference Objects > Object Templates > External Report tab**
