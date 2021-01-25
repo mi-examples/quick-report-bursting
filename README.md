@@ -1,6 +1,41 @@
 # Quick Report Bursting Portal Page
 ## Introduction
 A Burst is a collection of content sent to users on a schedule. Quick Report Bursting allows you to create Bursts in just a few clicks, directly including BI tool Objects (reports, dashboards, metrics) into Bursts. You do not need to create an External Report for each new element – it is done automatically using External Report Templates, making the process more rapid and convenient. 
+
+## Usage
+
+### 1. Create a Burst
+<img src="screenshots/quick9.png" width=80%; height=80%/>
+
+:warning:**Note**: To be able to select a Plugin Connection Profile and browse objects, **On-Demand Element Creation** must be enabled for that Plugin Connection Profile.
+1. Select an External Report type
+2. If several Plugin Connection Profiles are available:
+  * **Connection**: choose Plugin Connection Profile
+3. **Sheet**: select an External Report
+4. **Burst**: 
+  * **Add to existing**: choose a previously created Burst from 
+  * **Create new**: 
+    * **Schedule**: choose a schedule on which the Burst will be sent
+    *  **Email Subject**: enter a subject
+5. **[Schedule]**
+
+A message notifying that the External Report was added to the Burst is displayed. 
+
+
+### 2. Check the Created Burst: Access Content > Bursts
+<img src="screenshots/quick10.png" width=80%; height=80%/>
+
+1. Filter the results by entering your Burst’s name
+2. Select the created Burst
+
+### 3. Configure the Burst
+<img src="screenshots/quick11.png" width=80%; height=80%/>
+
+1. Manage Subscriptions for the created Burst from the _Subscriptions_ tab
+2. Contine configuring your Burst by adding more Tiles, changing the Schedule, selecting communication channels, customizing the email from the _Content_ and _Customize_ tabs. 
+
+For more details, see the [Busting](https://help.metricinsights.com/m/Pushing_Information_to_Users/c/110198) chapter.
+
 ## Installation
 ### 1. Access Admin > Portal Pages > Templates
 <img src="screenshots/quick1.png" width=70%; height = 70%/>
@@ -27,20 +62,7 @@ At a new tab, access [https://github.com/mi-examples/quick-report-bursting](http
 1. Access the Assets tab of the **_Portal Page Template Editor_**
 2. **[Upload Assets]**, select the downloaded ZIP archive
   
-### 2.2. Sync with Git
-#### 2.2.1. Enable Git Sync
-<img src="screenshots/quick4.png" width=70%; height = 70%/>
-
-1. Enable **Sync with Git**
-
-#### 2.2.2. Configure Git Sync
-<img src="screenshots/quick5.png" width=70%; height = 70%/>
-
-At the Git Sync tab:
-1. **Git Username** / **Git Password**: provide your Git credentials
-2. **Repository URL**: provide the URL of Quick Report Bursting repository
-3. **Branch**: enter the branch name
-4. **[Synchronize Now]**
+### 2.2. [Sync with Git](https://help.metricinsights.com/m/Managing_the_Metric_Insights_Environment/l/1359676-sync-portal-page-templates-with-github)
 
 ### 3. Add Variables
 <img src="screenshots/quick6.png" width=70%; height = 70%/>
@@ -82,36 +104,4 @@ Once you have made all the changes, click **[Save]**.
 <br>
 The Quick Report Bursting Portal Page is displayed. 
 
-## Usage
 
-### 1. Create a Burst
-<img src="screenshots/quick9.png" width=80%; height=80%/>
-
-:warning:**Note**: To be able to select a Plugin Connection Profile and browse objects, **On-Demand Element Creation** must be enabled for that Plugin Connection Profile.
-1. Select an External Report type
-2. If several Plugin Connection Profiles are available:
-  * **Connection**: choose Plugin Connection Profile
-3. **Sheet**: select an External Report
-4. **Burst**: 
-  * **Add to existing**: choose a previously created Burst from 
-  * **Create new**: 
-    * **Schedule**: choose a schedule on which the Burst will be sent
-    *  **Email Subject**: enter a subject
-5. **[Schedule]**
-
-A message notifying that the External Report was added to the Burst is displayed. 
-
-
-### 2. Check the Created Burst: Access Content > Bursts
-<img src="screenshots/quick10.png" width=80%; height=80%/>
-
-1. Filter the results by entering your Burst’s name
-2. Select the created Burst
-
-### 3. Configure the Burst
-<img src="screenshots/quick11.png" width=80%; height=80%/>
-
-1. Manage Subscriptions for the created Burst from the _Subscriptions_ tab
-2. Contine configuring your Burst by adding more Tiles, changing the Schedule, selecting communication channels, customizing the email from the _Content_ and _Customize_ tabs. 
-
-For more details, see the [Busting](https://help.metricinsights.com/m/Pushing_Information_to_Users/c/110198) chapter.
