@@ -222,4 +222,11 @@
 
 .bi-tool-sheet__text .wrap_like_input {
     border: none;
+    padding: 0 8px;
+}
+.bi-tool-sheet__text .wrap_like_input__icon {
+    display: none;
+}
+.bi-tool-sheet__text .datasource_hierarchy {
+    font-weight: 400!important;
 }
